@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>
+            Welcome!
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            header{
+                background-color: #41b1ee;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 10px 10%;
+            } /*header color*/
+        body{
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+        }/*body color*/
+            .menu{
+                align-content: center;
+            }
+            .menu ul, .dropdownmenu li{
+                    margin: 0;
+                    padding: 0;
+            }
+            .menu ul{
+                    background: rgb(9, 199, 224);
+                    list-style: none;
+                    width: 100%;
+                    align-self: center;
+                    
+            }
+            .menu ul li:hover a{
+               
+            }
+            .menu li{
+                float: left;
+                position:relative;
+                width: auto;
+                align-items: center;
+            }
+            .menu a{
+                background: #41b1ee;
+                color: white;
+                display: block;
+                font-weight: 200;
+                font-size: 20px;
+                padding: 20px 100px;
+                text-align: center;
+                text-decoration: none;
+                transition: all 0.5s ease;
+            }/*Gallery, About, Contact Us*/
+            .menu li:hover a{
+                background: #0082aa;
+            }/*pag hinover nagbabago kulay*/
+            #subabout{
+                left: 0;
+                opacity: 0;
+                position: absolute;
+                top: 35px;
+                visibility: hidden;
+                z-index: 1;
+            }/*para sa submenu ng about*/
+            li:hover ul#subabout{
+                opacity: 1;
+                top: 60px;
+                visibility: visible;
+            }/*pag hinover yung about settings non*/
+
+            #subabout li{
+                float: none;
+                width: 100%;
+            }/*settings mismo ng sub menu*/
+            #subabout a:hover{
+                background: black;
+            }/*pag hinover yung sub menu*/
+            #subabout a{
+                background: #41b1ee;
+            }
+
+
+              /* .box1{ 
+            background-color: rgb(165, 209, 245);
+            height: 100px;
+            margin-left: -10px;
+            margin-top: -30px;
+            width: 100%;
+            min-width: 1000px;
+        }
+            */ /*Welcome to Miwa Simps Society to*/
+        </style>
+    </head>
+<body background="bgmiwa.png" st>
+    <header>logo
+        <nav class="menu">
+            <ul>
+                <li><a href="">Gallery</a></li>
+                <li><a href="">About</a>
+                <ul id="subabout">
+                    <li><a href="">Miwa</a></li>
+                    <li><a href="">Miwa Simps Society</a></li>
+                </ul>
+                </li>
+                <li><a href="">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- <div class="box1">        
+     <h1 style="color:blue; font-family:wingdings; margin-left: 300; text-align: center;"><br>Welcome to Miwa Simps Society!</h1> 
+    </div> Welcome to Miwa Simps Society to -->
+    
+</body>
+</html>
