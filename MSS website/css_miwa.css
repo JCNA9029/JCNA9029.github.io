@@ -1,0 +1,94 @@
+header{
+    background-color: #41b1ee;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10%;
+} /*header color*/
+body{
+background-image: url('bgmiwa.png');
+background-repeat: no-repeat;
+background-size: auto;
+
+}/*body color*/
+.logo ul{
+
+        list-style-type: none;
+        list-style: none;
+        width: 100%;
+        align-self: center;
+        margin: 0;
+        padding: 0;
+}
+.logo a{
+    text-decoration: none;
+}
+.menu{
+    align-content: center;
+}
+.menu ul, .dropdownmenu li{
+        margin: 0;
+        padding: 0;
+}
+.menu ul{
+        background: rgb(9, 199, 224);
+        list-style: none;
+        width: 100%;
+        align-self: center;
+        
+}
+.menu ul li:hover a{
+   
+}
+.menu li{
+    float: left;
+    position:relative;
+    width: auto;
+    align-items: center;
+}
+.menu a{
+    background: #41b1ee;
+    color: white;
+    display: block;
+    font-weight: 200;
+    font-size: 20px;
+    padding: 20px 100px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}/*Gallery, About, Contact Us*/
+.menu li:hover a{
+    background: #0082aa;
+}/*pag hinover nagbabago kulay*/
+#subabout{
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 35px;
+    visibility: hidden;
+    z-index: 1;
+}/*para sa submenu ng about*/
+li:hover ul#subabout{
+    opacity: 1;
+    top: 60px;
+    visibility: visible;
+}/*pag hinover yung about settings non*/
+
+#subabout li{
+    float: none;
+    width: 100%;
+}/*settings mismo ng sub menu*/
+#subabout a:hover{
+    background: black;
+}/*pag hinover yung sub menu*/
+#subabout a{
+    background: #41b1ee;
+}
+.miwahome{
+    position: relative;
+    width: 200px;
+    height: 400px;
+    object-fit: contain;
+    left: -150px;
+    top: -330px
+}
