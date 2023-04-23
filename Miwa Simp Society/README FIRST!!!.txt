@@ -1,0 +1,1 @@
+Don't mind the folders, they're just source folders. Just open "Home" to see the website.  Thanks!
