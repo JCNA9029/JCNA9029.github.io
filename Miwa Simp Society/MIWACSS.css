@@ -14,12 +14,15 @@ header{
 } 
 /*header color*/
 body{
-background-image: url('bgmiwa.png');
+background-image: url('img/bgmiwa.png');
 width: 100%;
 height: 150vh;
 background-size: cover;
 background-position: bottom;
 font-family: 'Nunito', sans-serif;
+}
+a{
+    text-decoration: none;
 }
 /*body color*/
 .logo ul{
@@ -47,9 +50,6 @@ font-family: 'Nunito', sans-serif;
         width: 100%;
         align-self: center;
         
-}
-.menu ul li:hover a{
-   
 }
 .menu li{
     float: left;
@@ -95,15 +95,14 @@ li:hover ul#subabout{
 #subabout a{
     background: #41b1ee;
 }
-/* content */
+/* home content */
 .miwahome{
     position: relative;
-    width: 45%;
     height: auto;
     object-fit: cover;
     margin-top: 30px;
 }
-img[src="miwa3.JPG"] {
+img{
     border-radius: 10px;
 }
 .words {
@@ -127,7 +126,50 @@ img[src="miwa3.JPG"] {
     justify-content: space-around;
     align-items: center;
 }
-/* [CHANGES]
+/*Gallery*/
+.logo{
+    text-align: center;
+}
+.container{
+    padding-left: 100px;
+}
+.column1:hover ,.column2:hover,  .column3:hover, .column11:hover ,.column22:hover,  .column33:hover {
+    -ms-transform: scale(1.2); 
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2); 
+  }
+.row a{
+    text-decoration: none;
+ }
+ .column1 a:hover{
+    color: purple;
+ }
+ .column2 a:hover{
+    color: violet;
+ }
+ .column3 a:hover{
+    color: rgb(47, 169, 251);
+ }
+ .column11 a:hover{
+    color: gold;
+ }
+ .column22 a:hover{
+    color: rgb(3, 244, 19);
+ }
+ .column33 a:hover{
+    color: rgb(47, 169, 251);
+ }
+/*Contact us*/
+.container2{
+    text-align: center;
+    padding: 25px 20px 0px 20px;
+}
+.bottom {
+    text-align: center;
+   padding-top: 30%;
+    
+}
+  /* [CHANGES]
 >removed internal css
 >added a parent div for classes: miwahome, words for flexbox
 >removed automatic margin and padding from body * { padding:0; margin:0; }
